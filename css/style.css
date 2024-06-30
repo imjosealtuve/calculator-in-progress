@@ -1,0 +1,88 @@
+*{
+    font-family: helvetica;
+}
+#barra{
+    border: 0px;
+    border-radius: 8px;
+    background: rgb(247, 247, 247);
+    padding: 10px;
+    margin-bottom: 4px;
+    height: 26px;
+    font-family: helvetica;
+    width: 18%; 
+}
+
+.operaciones,#igual{
+    border: 0px;
+    border-radius: 18px;
+    font-size: 16px;
+    background-color: rgb(204, 253, 237);
+    padding: 10px;
+    margin-top: 4px;
+    margin-right: 14px;
+    width: 4%;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+.operaciones:hover, #igual:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: rgb(204, 242, 253);
+}
+.numeros{
+    border: 0px;
+    border-radius: 18px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(69, 69, 69);
+    padding: 10px;
+    margin-top: 4px;
+    margin-right: 14px;
+    width: 4%;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.numeros:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+    
+}
+#container-cero{
+
+    display: inline;
+}
+#cero{
+    border: 0px;
+    border-radius: 18px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(69, 69, 69);
+    padding: 10px 10px 10px 26px;
+    margin-top: 4px;
+    margin-right: 12px;
+    width: 9%;
+    text-align: left;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+#cero:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+#coma{
+    border: 0px;
+    border-radius: 18px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(69, 69, 69);
+    padding: 10px;
+    margin-top: 4px;
+    margin-right: 14px;
+    width: 4%;
+    height: 40px;
+}
